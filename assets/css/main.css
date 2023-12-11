@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .navsx {
+  display: flex;
+  justify-content: center;
+}
+header nav .navsx a {
+  color: white;
+  font-weight: 650;
+}
+
+@media (max-width: 512px) {
+  .spanx {
+    display: none;
+  }
+}
+.phone_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.spanx {
+  background-color: #FD784F;
+  padding: 5px;
+  color: white;
+}
+
+#find {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-image: url(/assets/IMG/home_slider_bcg\ \(1\).jpg);
+  background-size: cover;
+}
+#find .containerx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 600px;
+}
+#find .containerx h1 {
+  font-size: 92px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#clients {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-color: #171F35;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clients .responsx {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#clients .responsx .topx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+#clients .responsx .topx h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+#clients .responsx .topx span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b0b1b3;
+}
+#clients .responsx .middlex {
+  width: 57%;
+}
+#clients .responsx .middlex p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  color: #FFFFFF;
+}
+#clients .responsx .bottomx img {
+  border-radius: 50px;
+}
+#clients .responsx .bottomx h2 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fd784f;
+}
+#clients .responsx .bottomx h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+#sontext {
+  width: 100%;
+  min-height: 600px;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/world.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#sontext .PREFER {
+  width: 100%;
+  min-height: 500px;
+}
+#sontext .PREFER .smith {
+  width: 100%;
+  min-height: 200px;
+}
+#sontext .PREFER .smith h2 {
+  text-transform: uppercase;
+  color: #1e2c4e;
+  font-weight: 700;
+  font-size: 22px;
+}
+#sontext .PREFER .smith p {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b0b1b3;
+}
+#sontext .PREFER .smith .red {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#sontext .PREFER .smith .red div {
+  width: 2px;
+  min-height: 25px;
+  background-color: #FBA48A;
+}
+#sontext .PREFER .smith p {
+  margin-bottom: 20px;
+}
+#sontext .PREFER .newYork {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_5.jpg");
+  margin-bottom: 20px;
+}
+#sontext .PREFER .newYork button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .geneva {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_6.jpg");
+  margin-bottom: 20px;
+}
+#sontext .PREFER .geneva button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .miami {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_1.jpg");
+  margin-bottom: 20px;
+}
+#sontext .PREFER .miami button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .dublin {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_2.jpg");
+  margin-bottom: 20px;
+}
+#sontext .PREFER .dublin button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .vienna {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_3.jpg");
+  margin-bottom: 20px;
+}
+#sontext .PREFER .vienna button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .marbella {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/city_4.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#sontext .PREFER .marbella button {
+  width: 70%;
+  min-height: 35px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#productsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boxDiv {
+  width: calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.boxDiv .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.boxDiv img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.boxDiv button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.boxDiv button:hover {
+  background-color: #2980b9;
+}
+
+#pagi {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+#pagi:hover {
+  background-color: rgb(165, 140, 140);
+  color: red;
+}
+
+#productsListx {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boxDiv {
+  width: calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.boxDiv .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.boxDiv img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.boxDiv button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.boxDiv button:hover {
+  background-color: #2980b9;
+}
+
+@media (min-width: 500px) {
+  .boxDiv {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 568px) {
+  .boxDiv {
+    width: calc(100% - 20px);
+  }
+}
+@media (min-width: 1000px) {
+  .boxDiv {
+    width: calc(33% - 20px);
+  }
+}
+#house_x {
+  width: 100%;
+  min-height: 1100px;
+}
+#house_x .col {
+  margin-bottom: 20px;
+}
+#house_x .col .dd {
+  width: 150px;
+  min-height: 40px;
+  background-color: #FD784F;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#house_x .col img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+#house_x .col button {
+  background-color: #FD784F;
+  border: none;
+  color: white;
+  min-height: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#house_x .col .homeUmumi {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: 10px;
+}
+#house_x .col .homeUmumi .bedroom .icons {
+  display: flex;
+  gap: 24px;
+}
